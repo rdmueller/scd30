@@ -1,0 +1,21 @@
+{
+    "name": "SCD30",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "SCD30": "github:rdmueller/co2-ampel#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj"
+}
