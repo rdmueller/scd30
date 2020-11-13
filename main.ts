@@ -8,6 +8,7 @@ namespace SCD30 {
     export function showNumber(v: number, interval: number = 150): void
     { }
     //% blockId=scd30_wait_ready
+    //% block="wait ready"
     export function warte_bis_bereit (): void {
         istBereit = 0
         while (istBereit == 0) {
